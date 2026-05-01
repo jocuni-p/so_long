@@ -1,26 +1,56 @@
-
-
-
-
 https://github.com/user-attachments/assets/647799a2-7161-4e21-8998-d1b216627c51
 
 # so_long
-This project is a very small 2D game.
-Its purpose is to make us work with textures, sprites,
-and some other very basic gameplay elements.
-so_long will help us improve our skills in the following areas: window management, event handling, colors, textures, and so forth.
-We are going to use the 42' school graphical library: the MiniLibX! This library was developed internally and includes basic necessary tools to open a window, create images and deal with keyboard and mouse events.
-The other goals are being rigorous, level up in C programming, use basic algorithms, do some information research, and so forth.
 
+A lightweight 2D game built in C as part of the 42 School curriculum, focused on graphics programming fundamentals.
 
-### MacOS
-This program is created for Apple platforms due to the compilation flags and the code key numbers are based on MacOS and the Apple keyboards.
+## About
 
+**so_long** explores core concepts in 2D game development using the **MiniLibX** — 42's internal graphical library. The project covers:
 
-Execution command:
+- Window management & event handling
+- Texture and sprite rendering
+- Basic gameplay mechanics
+- Keyboard & mouse input
+
+Beyond graphics, the project reinforces rigorous C programming, algorithm design, and independent research skills.
+
+## Platform
+
+> ⚠️ **macOS only** — Compilation flags and key codes are tuned for Apple platforms and keyboards.
+
+## Installation
+
+```bash
+git clone https://github.com/jocuni-p/so_long.git
+cd so_long
 ```
-./so_long_bonus maps/valid_bonus/map_bonus_6.ber
 
+**Standard build:**
+```bash
+make
+```
+
+**Bonus build:**
+```bash
+make bonus
+```
+
+**Clean up:**
+```bash
+make clean    # removes object files
+make fclean   # full clean, including binaries
+make re       # full rebuild
+```
+
+## Usage
+
+**Standard mode:**
+```bash
 ./so_long maps/valid/map_6.ber
 ```
 
+**Bonus mode:**
+```bash
+./so_long_bonus maps/valid_bonus/map_bonus_6.ber
+```
