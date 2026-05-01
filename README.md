@@ -8,7 +8,7 @@ The other goals are being rigorous, level up in C programming, use basic algorit
 
 
 ### MacOS
-This program is created for Apple platforms because the compilation flags and the code key numbers are based on the Apple keyboards and MacOS. It can be easily adapted to a Linux system doing these small adaptations.
+This program is created for Apple platforms due to the compilation flags and the code key numbers are based on MacOS and the Apple keyboards.
 
 
 Execution command:
