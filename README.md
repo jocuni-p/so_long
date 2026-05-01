@@ -13,9 +13,9 @@ This program is created for Apple platforms because the compilation flags and th
 
 Execution command:
 ```
-./so_long maps/map_name.ber
+./so_long_bonus maps/valid_bonus/map_bonus_6.ber
 
-./so_long_bonus maps/map_name_bonus.ber
+./so_long maps/valid/map_6.ber
 ```
 
 
